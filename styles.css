@@ -106,3 +106,18 @@ img {
     overflow: hidden;
     grid-template-areas: "product3 . product1" . "product2.";
 }
+
+/*ct-tvs 6*/
+/*tablet*/
+@media (max-width: 1024px) {
+.products-list {
+    grid-template-columns: 1fr 1fr
+    }
+}
+
+/*celular*/
+@media (max-width: 768px) {
+.products-list {
+    grid-template-columns: 1fr;
+    }
+}
