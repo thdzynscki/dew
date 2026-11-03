@@ -3,24 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendas de notebook</title>
-    <meta name="description" content="Compre notebooks online com facilidade. Explore nossa ampla seleção de produtos de alta qualidade para aprimorar sua experiência de entretenimento em casa.">
+    <title>Vendas de notebooks</title>
+    <meta name="description" content="Compre notebooks online com facilidade. Explore nossa ampla seleção de produtos de alta qualidade.">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body> class="page-category-notebook">
+ 
+<body class="page-category-notebook">
     <header class="header">
+        <p>Vendas de notebooks e smartphones online</p>
         <nav class="nav">
-    </header>
-    <h1>Vendas de notebook</h1>
-    <h2>Notebooks em destaque</h2>
-    <ol id="primary-list">
-        <li><img src="https://eshop-api.avell.com.br/storage/resize/contain/_x500/5/catalog/productMedia/67ffbb2c1926b5228/691633eeabe6f5120.webp" alt="notebook avell">
-        <h3>marca: Avell</h3>
-        <h4>R$ 23.999,00</h4>
-        <h5>R$2.222,13 em até 12x</H5>
-        <a href="https://avell.com.br/storm-580">Detalhes</a>
-          </li>
+            <ul>
+                <li><a href="./products.html">Home</a></li>
+                <li><a href="./category_notebook.html" target="_self">Notebooks</a></li>
+                <li><a href="./category_smartphone.html">Smartphones</a></li>
             </ul>
         </nav>
     </header>
+ 
+    <main>
+        <h1>Categoria de produtos</h1>
+        <h2>Notebooks</h2>
+        <h3>Notebooks em destaque</h3>
+        <p>Confira preços e condições de parcelamento</p>
+ 
+        <ul id="primary-list" class="products-list">
+            <li class="product">
+                <h3>Avell</h3>
+                <figure>
+                    <img src="https://eshop-api.avell.com.br/storage/resize/contain/_x500/5/catalog/productMedia/67ffbb2c1926b5228/691633eeabe6f5120.webp" alt="Imagem de notebook marca Avell">
+                    <figcaption>Notebook Avell Storm 580</figcaption>
+                </figure>
+ 
+                <p class="price">
+                    <strong>Preço:</strong>
+                    <data value="23999">R$ 23.999,00</data>
+                </p>
+ 
+                <p class="installment">
+                    <strong>Parcelamento:</strong>
+                    <data value="2222.13">R$ 2.222,13</data> em até 12x
+                </p>
+ 
+                <a href="https://avell.com.br/storm-580" target="_blank" rel="noopener noreferrer">Ver mais</a>
+            </li>
+        </ul>
+    </main>
+ 
+    <hr>
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
